@@ -42,3 +42,18 @@ b4,abgr,msb,xy .. text: "?Z?Z?Z?Z?Z?Z"
 Image2: [00000002.jpg](./img/00000002.jpg)
 
 Relevant analysis: [https://www.aperisolve.com/b4752b5b3f04bf68543e1f6215432287](https://www.aperisolve.com/b4752b5b3f04bf68543e1f6215432287)
+
+---
+
+If you are interested in analyzing anything on the contract/programmatic level, go sign up (for free, no credit card required, just login with GitHub or Google Account & start a 14-day trial) for Tenderly. Here's a quick example of what you can see (one of the relevant transactions as of about 6 minutes ago time of writing) [https://dashboard.tenderly.co/tx/mainnet/0xcfd628c02140695403a650c7bd1657bb8594bdf8a949a6c6c8ea8b5facf0484d](https://dashboard.tenderly.co/tx/mainnet/0xcfd628c02140695403a650c7bd1657bb8594bdf8a949a6c6c8ea8b5facf0484d)
+
+---
+
+Other tools:
+
+- [ ] [CyberChef](https://gchq.github.io/CyberChef/) - a swiss army knife of tools for analyzing data
+- [ ] [https://www.4byte.directory/](https://www.4byte.directory/)
+
+---
+
+Fun fact: Amazon CodeWhisperer is contributing via autofill to this README.md file. I'm not sure if it's a bug or a feature, but it's pretty cool. (it just wrote the entire last half of that sentence... and called itself cool. I'm not sure if I agree with that, but it's pretty cool.)
