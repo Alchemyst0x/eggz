@@ -48,6 +48,15 @@ Relevant analysis: [https://www.aperisolve.com/b4752b5b3f04bf68543e1f6215432287]
 If you are interested in analyzing anything on the contract/programmatic level, go sign up (for free, no credit card required, just login with GitHub or Google Account & start a 14-day trial) for Tenderly. Here's a quick example of what you can see (one of the relevant transactions as of about 6 minutes ago time of writing) [https://dashboard.tenderly.co/tx/mainnet/0xcfd628c02140695403a650c7bd1657bb8594bdf8a949a6c6c8ea8b5facf0484d](https://dashboard.tenderly.co/tx/mainnet/0xcfd628c02140695403a650c7bd1657bb8594bdf8a949a6c6c8ea8b5facf0484d)
 
 ---
+CUT-TO .. some more stuff
+
+Check [./snippets/plausible-answer-1.txt](snippets/plausible-answer-1.txt)
+
+Markdown README for snippets: [./snippets/README.md](snippets/README.md)
+
+... nvm, making a markdown readme. Sorry for messy insane notes :)
+
+---
 
 Oh yeah and this (compare to image, kinda obv. but took me a min 🧙‍♂️♥️) this is [sol/Ingredient.sol](sol/Ingredient.sol)
 
@@ -62,3 +71,33 @@ Other tools:
 ---
 
 Fun fact: Amazon CodeWhisperer is contributing via autofill to this README.md file. I'm not sure if it's a bug or a feature, but it's pretty cool. (it just wrote the entire last half of that sentence... and called itself cool. I'm not sure if I agree with that, but it's pretty cool.)
+
+
+### Check the folder called snippets -> I am tired of markdown'ing this stuff lulzkek
+
+[https://dashboard.tenderly.co/tx/mainnet/0x3f6ebeb4da2b228819bb7cc66db25d778fe1e66de8cdcd811518145c29bb3e52](https://dashboard.tenderly.co/tx/mainnet/0x3f6ebeb4da2b228819bb7cc66db25d778fe1e66de8cdcd811518145c29bb3e52)
+
+```solidity
+{
+  "[FUNCTION]": "isContract",
+  "[OPCODE]": "JUMP",
+  "contract": {
+    "address": "0xd9c97a1af6b6689e49be1a5afa895114f843bd28"
+  },
+  "caller": {
+    "address": "0x0aa607779b8395e5ccc4cd9fb2d689e6d3575be5",
+    "balance": "0"
+  },
+  "input": {
+    "account": "0x30f8b9f0d81a0fd5d26937379c648c8ae8986a35"
+  },
+  "output": {
+    "0": false
+  },
+  "gas": {
+    "gas_left": 3348,
+    "gas_used": 140,
+    "total_gas_used": 198754
+  }
+}
+```

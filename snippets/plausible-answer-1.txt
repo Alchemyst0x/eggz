@@ -1,0 +1,48 @@
+b1,rgba,lsb,xy .. text: ["U" repeated 11 times]
+b1,abgr,msb,xy .. text: ["U" repeated 11 times]
+b2,r,lsb,xy .. text: "UUjUUUjU@U:"
+b2,g,lsb,xy .. text: "UUUUUUUUUj"
+b2,g,msb,xy .. text: ["U" repeated 8 times]
+b2,b,lsb,xy .. text: "UUjUUUjU@"
+b2,rgba,lsb,xy .. text: ";;wwwwww"
+b2,abgr,msb,xy .. text: ["w" repeated 8 times]
+b3,rgba,lsb,xy .. text: "VugVugVugz"
+b4,r,lsb,xy .. text: ["w" repeated 10 times]
+b4,r,msb,xy .. text: "333UUUUUUUU"
+b4,g,lsb,xy .. text: "DUUUfffwwww"
+b4,g,msb,xy .. text: ["D" repeated 10 times]
+b4,b,lsb,xy .. text: "\"\"\"\"33\"\""
+b4,b,msb,xy .. text: ["w" repeated 11 times]
+b4,abgr,msb,xy .. text: "?Z?Z?Z?Z?Z?Z"
+
+---
+
+This is from the zsteg analysis of FcN0iVUaMAUKGVL.jpeg or:
+https://www.aperisolve.com/bb44b8fefc2de231fc5d3082bccf1532
+
+---
+
+Here is a function from the contract:
+https://www.formie.co/form/25IlKwgfMEGBy4ePdSjQ
+
+takes the following parameters:
+Wot Wurdz (bytes32)
+
+How Manyyy (unit256)
+
+---
+
+Check the transactions logs:
+https://etherscan.io/txsInternal?a=0xae5103e2c1bbc487832ebb4820844c8a72f755e2&m=advanced
+These are the internal transactions logs
+Use a better solution though, such as Tenderly, or ... I can't think about another right this second lol.
+
+Flashbots is a good resource,
+https://www.4byte.directory/ <- eth sig database
+https://sourcify.dev/ <- for finding other similar contracts or searching for similar code or verifying blah etc
+Going deep...
+https://github.com/dapphub/dapptools <- awesome
+https://github.com/gakonst/ethers-rs <- rust
+https://book.getfoundry.sh/cast/ <-- foundry book, how to cast
+https://instadapp.io/ <-- no need for more annotations lol
+https://docs.flashbots.net/ <-- my fav <3
