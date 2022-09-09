@@ -49,6 +49,11 @@ If you are interested in analyzing anything on the contract/programmatic level, 
 
 ---
 
+Oh yeah and this (compare to image, kinda obv. but took me a min 🧙‍♂️♥️) this is [sol/Ingredient.sol](sol/Ingredient.sol)
+
+<img src="https://i.imgur.com/dniSpdT.png"> `./sol/codesnaps/Ingredient.sol.png`
+
+
 Other tools:
 
 - [ ] [CyberChef](https://gchq.github.io/CyberChef/) - a swiss army knife of tools for analyzing data
